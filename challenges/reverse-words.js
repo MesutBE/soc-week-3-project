@@ -1,5 +1,5 @@
 console.log('-- load & test reverseWords --');
-debugger; // step through loading & testing
+//debugger; // step through loading & testing
 
 /* individually reverse each word in a sentence
   for this exercise, a word is any text separated by spaces

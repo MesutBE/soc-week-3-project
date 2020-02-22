@@ -1,5 +1,5 @@
 console.log('-- load & test replaceSubstring --');
-debugger; // step through loading & testing
+//debugger; // step through loading & testing
 
 // replace every occurrence of a substring with a new value
 function replaceSubstring(str, oldThing, newThing) {

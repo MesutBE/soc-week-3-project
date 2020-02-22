@@ -1,5 +1,5 @@
 console.log('-- load & test sortCharacters --');
-debugger; // step through loading & testing
+//debugger; // step through loading & testing
 
 /* sort the characters in a string
   each character in a javascript string has a "charCode" number

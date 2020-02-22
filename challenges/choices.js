@@ -1,5 +1,5 @@
 console.log('-- load & test choices --');
-debugger; // step through loading & testing
+//debugger; // step through loading & testing
 
 // first argument is any string
 // second argument is what to do to that string
