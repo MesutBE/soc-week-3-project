@@ -6,7 +6,7 @@ console.log('-- load & test reverseWords --');
   reverse the characters in each word, but leave the sentence in order
 */
 function reverseWords(str) {
-
+  return str.split(' ').map(x => x.split('').reverse().join('')).join(' ');
 }
 
 // declare and evaluate test cases for reverseWords
