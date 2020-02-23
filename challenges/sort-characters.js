@@ -9,7 +9,8 @@ console.log('-- load & test sortCharacters --');
   to sort strings you rearrange the characters in charCode order
 */
 function sortCharacters(str) {
-
+  let arr = str.split('').map(x => x.charCodeAt(0));
+  return arr.sort((a, b) => a - b).map(x => String.fromCharCode(x)).join('');
 }
 
 // declare and evaluate test cases for sortCharacters
