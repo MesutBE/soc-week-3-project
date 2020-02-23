@@ -35,7 +35,7 @@ function repeatCharactersHandler() {
 
   // read & process user input
   const userText = prompt("enter some text");
-  const numRepeats = prompt('enter repetition number \'2\', \'5\'... etc.');
+  let numRepeats = prompt('enter repetition number \'2\', \'5\'... etc.');
   numRepeats = parseInt(numRepeats);
 
   const numRepeatsIsANumber = typeof numRepeats === 'number';
