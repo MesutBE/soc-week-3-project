@@ -35,21 +35,23 @@ console.log(sortCharactersTests);
 
 // declare handler
 function sortCharactersHandler() {
-  debugger; // step through user actions
+  //debugger; // step through user actions
 
   // read & process user input
-
+  const userText = prompt("enter some text");
 
   // execute core logic
-
+  const result = sortCharacters(userText);
 
   // display result to user
-
+  alert(result);
 
   // log action for developer
   console.log('\n-- sortCharacters --');
   // user inputs
+  console.log("userText:", "(" + typeof userText + "),", userText);
   // result
+  console.log("result:", "(" + typeof result + "),", result);
 }
 
 // attach handler to sortCharacters button with an event listener

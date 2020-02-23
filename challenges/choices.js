@@ -44,7 +44,7 @@ console.log(choicesTests);
 
 // declare handler
 function choicesHandler() {
-  debugger; // step through user actions
+  //debugger; // step through user actions
 
   // read & process user input
   const userText = prompt("enter some text");

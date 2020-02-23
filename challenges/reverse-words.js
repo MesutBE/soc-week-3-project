@@ -30,21 +30,24 @@ console.log(reverseWordsTests);
 
 // declare handler
 function reverseWordsHandler() {
-  debugger; // step through user actions
+  //debugger; // step through user actions
 
   // read & process user input
-
+  const userText = prompt("enter some text");
 
   // execute core logic
-
+  const result = reverseWords(userText);
 
   // display result to user
-
+  alert(result);
 
   // log action for developer
   console.log('\n-- reverseWords --');
   // user inputs
+  console.log("userText:", "(" + typeof userText + "),", userText);
   // result
+  console.log("result:", "(" + typeof result + "),", result);
+
 }
 
 // attach handler to reverseWords button with an event listener
